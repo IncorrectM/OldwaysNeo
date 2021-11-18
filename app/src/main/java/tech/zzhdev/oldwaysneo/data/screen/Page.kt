@@ -1,8 +1,8 @@
-package tech.zzhdev.oldwaysneo.data
+package tech.zzhdev.oldwaysneo.data.screen
 
-sealed class Page(val route: String) {
+sealed class Page(route: String): Screen(route = route) {
     object EduPage: Page(route = "/eduPage")
-    object Communication: Page(route = "/commPage")
+    object CommunicationPage: Page(route = "/commPage")
     object EMallPage: Page(route = "/mallPage")
     object ConnectionPage: Page(route = "/connPage")
 }

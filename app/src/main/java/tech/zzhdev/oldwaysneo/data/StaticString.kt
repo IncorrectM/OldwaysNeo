@@ -8,6 +8,12 @@ object StaticString {
     const val LikeLabel = "赞同"
     const val MarkLabel = "收藏"
     const val CommentLabel = "评论"
+
+    const val PersonalInformationLabel = "我的"
+    const val EducationLabel = "教育"
+    const val CommunicationLabel = "交流"
+    const val ConnectionLabel = "社交"
+    const val EMallLabel = "商城"
 }
 
 /**

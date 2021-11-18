@@ -1,6 +1,6 @@
-package tech.zzhdev.oldwaysneo.data
+package tech.zzhdev.oldwaysneo.data.screen
 
-import tech.zzhdev.oldwaysneo.data.ScreenArgumentLabel.ID
+import tech.zzhdev.oldwaysneo.data.screen.ScreenArgumentLabel.ID
 
 object ScreenArgumentLabel {
     const val ID = "id"

@@ -14,7 +14,10 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             OldWaysNeoTheme {
-                RootScreenNavGraph(rootScreenNavController = rememberNavController())
+                RootScreenNavGraph(
+                        rootScreenNavController = rememberNavController(),
+                        mainPageNavController = rememberNavController()
+                )
             }
         }
     }

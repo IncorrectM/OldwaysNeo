@@ -1,8 +1,6 @@
-package tech.zzhdev.oldwaysneo
+package tech.zzhdev.oldwaysneo.data
 
-import androidx.compose.runtime.remember
 import androidx.lifecycle.MutableLiveData
-import tech.zzhdev.oldwaysneo.data.User
 
 object AppUser {
     val user = MutableLiveData(User.getById("123"))
@@ -11,6 +9,6 @@ object AppUser {
     fun init(
         id: String
     ) {
-        this.userId = id
+        userId = id
     }
 }
